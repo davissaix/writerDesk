@@ -15,13 +15,21 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
+body {
+  
+  color: rgb(var(--foreground-rgb));
+  /* Use a comma to separate image and gradient */
+  background-image: 
+   
+    url('../../public/desk-writer.jpg'); /* Adjust path as necessary */
+  background-size: cover; /* Cover the entire space of the element */
+  background-attachment: fixed; /* Fix the background relative to the viewport */
+  background-position: center; /* Center the background image */
+}
+

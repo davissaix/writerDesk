@@ -1,0 +1,27 @@
+/* paper/styles.css */
+#paper-container {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust positioning to truly center the div */
+    width: 30rem; /* Fixed width of the container */
+    /* border:1px solid red; */
+    /* Add more styles as needed */
+  }
+  
+  .line {
+    background-color: transparent; /* Example background */
+     /* Space between lines */
+    padding: 0 5px 0 5px; /* Padding inside each line */
+    box-sizing: border-box;
+    border: none; /* No borders */
+    outline: none; /* No outline when focused */
+    
+    /* Add more styles as needed */
+  }
+  
