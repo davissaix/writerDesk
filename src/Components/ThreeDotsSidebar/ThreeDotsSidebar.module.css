@@ -1,0 +1,32 @@
+/* CSS Module file for the sidebar component */
+.threeDotsIcon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 1010; /* Ensures that the icon is clickable */
+}
+
+/* Styles for the sidebar when it's closed */
+.sidebarClosed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 0;
+  overflow: hidden;
+  transition: width 0.5s ease;
+  height: 100vh; /* Full height of the viewport */
+  z-index: 1000;
+}
+
+/* Styles for the sidebar when it's open */
+.sidebarOpen {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 150px; /* Your desired width */
+  overflow: hidden;
+  transition: width 0.5s ease;
+  height: 100vh; /* Full height of the viewport */
+  z-index: 1000;
+}

@@ -6,22 +6,34 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 50%; /* Center vertically */
+    top: 8%; /* Set the top of the element at 25% from the top of the viewport */
     left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust positioning to truly center the div */
+    transform: translateX(-50%); /* Adjust horizontal positioning to center the div */
     width: 30rem; /* Fixed width of the container */
-    /* border:1px solid red; */
+    height: 33rem;
+    /* border: 1px solid red; Red border to visualize the container */
     /* Add more styles as needed */
+}
+line::-webkit-scrollbar {
+  width: 0 !important
   }
   
   .line {
     background-color: transparent; /* Example background */
+    background: transparent;
+    color:inherit;
      /* Space between lines */
-    padding: 0 5px 0 5px; /* Padding inside each line */
+    padding: 1rem 0 1rem 0; /* Padding inside each line */
     box-sizing: border-box;
-    border: none; /* No borders */
+    /* border: none; No borders */
     outline: none; /* No outline when focused */
-    
+    /* height: 60rem; */
+    /* border:1px solid red; */
+    height: 100%;
+    line-height: 1.2; /* Adjust this value as needed */
+    overflow-y: hidden !important;
+    max-height: 100%; /* Prevent it from getting any larger than the container */
+    overflow-y: auto;
     /* Add more styles as needed */
   }
   
