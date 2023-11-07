@@ -1,4 +1,4 @@
-// pages/_document.tsx
+// src/pages/_document.tsx
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 class MyDocument extends Document {
@@ -6,8 +6,9 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          {/* Existing tags... */}
+          {/* Add your custom font link here */}
           <link href="https://fonts.googleapis.com/css2?family=Heuristica&display=swap" rel="stylesheet" />
+          {/* Other head tags */}
         </Head>
         <body>
           <Main />
