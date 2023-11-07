@@ -33,3 +33,6 @@ body {
   background-position: center; /* Center the background image */
 }
 
+.bodyWithHeuristica {
+  font-family: 'Heuristica', serif;
+}
